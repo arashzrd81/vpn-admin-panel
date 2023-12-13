@@ -1,0 +1,10 @@
+.add-income-container form div {
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+}
+
+.add-income-container form label {
+    font-size: 0.8rem;
+    color: white;
+}

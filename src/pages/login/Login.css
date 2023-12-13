@@ -1,0 +1,36 @@
+.login-container,
+.login-container .login-wrapper,
+.login-wrapper form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-container {
+    height: 100vh;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.login-container .login-wrapper {
+    width: min(70%, 300px);
+    row-gap: 2rem;
+}
+
+.login-wrapper h1 {
+    font-size: 1.05rem;
+    color: white;
+}
+
+.login-wrapper form {
+    width: 100%;
+    row-gap: 1rem;
+}
+
+.login-wrapper form * {
+    width: 100%;
+}
+
+.login-wrapper form button {
+    margin-top: 1rem;
+}

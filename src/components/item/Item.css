@@ -1,0 +1,84 @@
+.item-container {
+    width: 100%;
+    display: flex;
+    column-gap: 0.5rem;
+}
+
+.item-container .item-wrapper {
+    width: 85%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.item-wrapper i:not(.fa-chevron-up, .fa-chevron-down) {
+    color: #460080;
+}
+
+.item-wrapper .header {
+    padding: 1rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+
+.item-wrapper .header .field {
+    padding: 0;
+    border-bottom: none;
+}
+
+.item-wrapper .details {
+    padding: 0rem 1.5rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.85rem;
+}
+
+.item-wrapper .field:nth-child(2) span {
+    margin-right: -0.25rem;
+}
+
+.item-wrapper .details :where(.field:last-child, .unpaid .field) {
+    border-bottom: none;
+}
+
+.item-wrapper .details .unpaid {
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-wrapper .unpaid button {
+    font-size: 0.8rem;
+}
+
+.item-container .delete-item-wrapper {
+    align-self: flex-start;
+    width: 13%;
+    padding: 1.1rem 1.5rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFD6D6;
+}
+
+.item-container .delete-item-wrapper i {
+    font-size: 1.1rem;
+    color: red;
+}
+
+
+
+/* Media Query */
+
+@media screen and (min-width: 992px) {
+    .item-wrapper .header,
+    .item-container .delete-item-wrapper {
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,28 @@
+aside {
+    width: min(60px, 10%);
+    height: 100vh;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1.5rem;
+    background-color: #31304D;
+}
+
+aside i {
+    font-size: 1rem;
+    color: white;
+}
+
+
+
+/* Media Query */
+
+@media screen and (min-width: 992px) {
+    aside .fa-arrow-right-from-bracket {
+        cursor: pointer;
+    }
+}

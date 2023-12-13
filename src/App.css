@@ -1,0 +1,103 @@
+@font-face {
+    font-family: IRANSans;
+    src: url("./font/IRANSans.ttf");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: IRANSans;
+}
+
+body {
+    background-color: #161A30;
+}
+
+h1 {
+    font-size: 1rem;
+    color: white;
+}
+
+input,
+button {
+    padding: 0.5rem 0.8rem;
+    border: none;
+    outline: none;
+    font-size: 0.9rem;
+}
+
+input {
+    border-radius: 10px;
+}
+
+input::placeholder {
+    font-size: 0.8rem;
+}
+
+button {
+    border-radius: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: #C70039;
+}
+
+.add-sec-container {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.add-sec-container form {
+    width: min(280px, 60%);
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+    text-align: center;
+}
+
+.add-sec-container form input::-webkit-outer-spin-button,
+.add-sec-container form input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.add-sec-container form input[type=number] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+.toast {
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    font-size: 16px;
+}
+
+
+
+/* Media Queries */
+
+@media screen and (min-width: 576px) {
+    html {
+        font-size: 17px;
+    }
+    .toast {
+        width: 340px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    html {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    html {
+        font-size: 19px;
+    }
+    button {
+        cursor: pointer;
+    }
+}
