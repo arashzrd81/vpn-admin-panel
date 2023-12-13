@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/vpn-admin-panel/static/css/main.777c1b8f.css",
+    "main.js": "/vpn-admin-panel/static/js/main.3025dc9c.js",
+    "static/media/IRANSans.ttf": "/vpn-admin-panel/static/media/IRANSans.623768ac2bdc3c1f78df.ttf",
+    "index.html": "/vpn-admin-panel/index.html",
+    "main.777c1b8f.css.map": "/vpn-admin-panel/static/css/main.777c1b8f.css.map",
+    "main.3025dc9c.js.map": "/vpn-admin-panel/static/js/main.3025dc9c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.777c1b8f.css",
+    "static/js/main.3025dc9c.js"
+  ]
+}
